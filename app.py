@@ -58,8 +58,8 @@ def main():
 if __name__ == "__main__":
     parser = optparse.OptionParser()
     parser.add_option("-H", "--host",
-        help="Hostname of the Flask app [default 127.0.0.1]",
-        default="127.0.0.1"
+        help="Hostname of the Flask app [default 0.0.0.0]",
+        default="0.0.0.0"
     )
     parser.add_option("-P", "--port",
         help="Port for the Flask app [default 5000]",
